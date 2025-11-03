@@ -1,0 +1,365 @@
+.navbar{
+    text-decoration: none;
+justify-content: space-between;
+border-radius: 10px;
+
+background-color: rgb(49, 49, 47);
+max-height: 11.3%;
+}
+nav a{
+ color: darkcyan;
+font-size: 35px;
+text-decoration: none;
+text-align: center;
+margin-left: 50px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+                            
+logo, img{
+ padding: 40px ;
+ width: 20pc;
+padding-inline-start: 20%;
+border-radius: 15px;
+}
+        /* end of nav bar */
+                       
+main.content{
+    position: relative;
+    background-image: url('images/pitch4.jpg');
+    background-size: cover;
+    padding: 120px 20px;
+    color: solid black;
+    min-height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+main.content::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+} 
+.intro {
+    max-width: 700px;
+    color: rgb(12, 12, 11);
+    text-shadow: 2px 2px 80px black ;
+}
+.intro p{
+    font-size: 50px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+
+}
+.intro h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: solid black;
+    margin-bottom: 30px;
+}
+.button{
+    font-size: 25px;
+    display: inline-block;
+    padding: 15px 29px;
+    background-color:rgb(217, 231, 217);
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 8px blueviolet;
+}
+                                /* end of content */
+.home-kits{
+    padding: 60px 30px;
+    background-color: blanchedalmond;
+    text-align: center;
+
+}
+
+.home-kits h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+    color: goldenrod;
+}
+.kit-grid{
+    display:flex ;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.kit-card{
+    background-color: rgb(87, 20, 20);
+    border-radius: 10px ;
+    padding: 20px;
+    max-width: 280px;
+    box-shadow: 0 4px 8px salmon;
+    transition: transform 0.2s ease ;
+}
+.kit-card img{
+    width: 200px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px ;
+    margin-bottom: 15px;
+}
+.kit-card h3{
+    font-size: 20px;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+                            /* end of img section */
+footer{
+ color: rgb(19, 20, 20);
+ background-color: transparent;   
+}
+.footer-top{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+.footer-section{
+    min-width: 220px;
+    height: 5%;
+}
+.footer-about{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-section .about img{
+    width: 100px;
+    max-width: 100%;
+    border-radius: 1px;
+    box-shadow: 0 0 15px color(srgb red green blue);
+}
+.footer-section-sponsers h4{
+    color: beige;
+    font-size: 45px;
+}
+.footer-section h4{
+    color:whitesmoke;
+    margin-bottom: 15px;
+    font-size: 40px;
+    font-weight: 600;
+
+}
+.footer-section ul li{
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    font-size: 45px;
+}
+.footer-section img{
+    margin-right: 10px;
+    width: 30px;
+    font-size: 40px;
+}
+                                /* sponsors part */
+.footer-section-sponsers ul li{
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    color: rgb(50, 66, 66);
+    font-size: 40px;
+    
+}
+.footer-section-sponsers img{
+     margin: 60px;
+    width: 15%;
+    padding: 15px;
+}
+                    /* a section */
+.footer-section a{
+    color: beige;
+    text-decoration: none;
+    transition: 0.3;
+}
+.footer-section a:hover{
+    color:red;
+    text-decoration: underline;
+}
+                    /* social media */
+.social-icon img{
+    width: 90px;
+    
+}
+.social-icon{
+    color: rgb(16, 17, 17);
+    font-size: 20px;
+    width: 90px;
+    
+    padding: 0px;
+
+}
+.footer-section p{
+    font-size: 45px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: rgb(159, 152, 165);
+}
+.footer-bottom{
+    margin: 90px;
+    text-align: center;
+    border-top: 1px solid goldenrod;
+    padding-top: 20px;
+    font-size: 50px;
+    color: chocolate;
+}
+                /* clourse of HOME PAGE */
+
+
+.handles{
+    font-size: 20px;
+    width: 60px;
+    display: inline-block;
+    color: rgb(236, 184, 208);
+}
+.handles img{
+    width: 90px;
+
+}
+.contacts{
+background-image: url('images/pitch8.jpg');
+}
+.pic{
+    width: 10%;
+    display: flex;
+}
+.contacts p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    color: rgb(231, 220, 220);
+}
+.contacts location{
+    color: aquamarine;
+}
+                /* End of contact page */
+
+.abouts{
+    background-color: cornflowerblue;
+font-size: 60px;
+border-radius: 10PX;
+padding: auto;
+margin: auto;
+}
+.abouts h1{
+color:aliceblue ;
+text-align: center;
+}
+.founder{
+font-size: 35px;
+}
+.visionmission p{
+font-size: 30px;
+}
+.visionmission h2{
+color: aliceblue;
+}
+form{
+background-color:transparent;
+}
+.form input[type="text"]{
+padding: 30px;
+justify-content: space-between;
+width: 95%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+}
+.form input[type="number"]{
+justify-content: space-between;
+width: 95%;
+padding: 30px;
+
+}
+.form input[type="date"]{
+padding: 30px;
+width: 95%;
+justify-items: center;
+font-size: 30px;
+}
+
+.form input[type="radio"]{
+padding: 30px;
+font-size: 400%;
+}
+button{
+    font-size: 50px;
+border-radius: 10px;
+width: 80%;
+padding: 10px;
+margin: 5%;
+background-color: chocolate;
+justify-content: center;
+text-align: center}
+/* end of about */
+
+
+.image-grid{
+  padding: 60px 30px;
+    background-color: rgb(238, 212, 172);
+    text-align: center;  
+    display:flex ;
+    justify-content: center;
+    gap: 0px;
+    flex-wrap: wrap;
+}
+.image-card1{
+    overflow: scroll;
+    display:inline-flex;  
+    border-radius: 10px ;
+    padding:50px;
+    width: 100%;
+    box-shadow: 0 4px 8px salmon;
+    transition: transform 0.2s ease;
+
+}
+    
+.image-card1 img{
+    width: 1000px;
+    display: grid;
+    gap: 15px;
+
+} 
+.image-card2 img{
+    width: 40%;
+    display: grid;
+    gap: 5px;
+}
+.image-card2{
+     overflow: scroll;
+    display:inline-flex;  
+    border-radius: 10px ;
+    width: 90%;
+    box-shadow: 0 4px 8px salmon;
+    
+}
+.image-card3{
+    display:inline-flex;  
+    border-radius: 10px ;
+    scroll-padding-left: 50px;
+    width: 100%;
+    box-shadow: 0 4px 8px salmon;
+    
+}
+.image-card4{
+     overflow-anchor: inherit;
+    display:inline-flex;  
+    border-radius: 10px ;
+    padding:50px;
+    width: 100%;
+    box-shadow: 0 4px 8px salmon;
+    transition: transform 0.2s ease;
+   
+}
+.image-card4 img{
+    width: 1000px;
+    display: grid;
+    gap: 15px;
+}
+/* Responsiveness */
+@media (max-width: 800){
+    }
