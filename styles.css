@@ -25,7 +25,7 @@ border-radius: 15px;
                        
 main.content{
     position: relative;
-    background-image: url('images/pitch4.jpg');
+    background-image: url('pitch4.jpg');
     background-size: cover;
     padding: 120px 20px;
     color: solid black;
@@ -362,4 +362,5 @@ text-align: center}
 }
 /* Responsiveness */
 @media (max-width: 800){
+
     }
